@@ -25,4 +25,8 @@ This project aims to create an AWS infrastructure using CloudFormation templates
 - <b>Auto scaling groups</b> 
 - <b>Security groups (firewalls)</b>
 
+<h2>Configurations</h2>
+
+
+
 
