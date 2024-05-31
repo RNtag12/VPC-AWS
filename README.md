@@ -30,6 +30,7 @@ The overall solution architecture is made of a VPC that is connected to the inte
 <br />
 
 <h2>Steps to execute the project</h2>
+
 - <b>Launch the cloud formation template attached</b> 
 - <b>Create a bastion host</b>
 - <b>Create a launch template and configure scaling groups</b> 
