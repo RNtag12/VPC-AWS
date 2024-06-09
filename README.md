@@ -1,5 +1,5 @@
 # VPC-AWS
-Highly available, secure and scalable VPC architecture in AWS 
+This is a guide to how you can deploy a Highly available, secure and scalable web application on AWS. it features a VPC architecture in AWS with two public subnets and four private subnets.
 
 <h2>General Information</h2>
 Amazon Web Services (AWS) is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis. 
@@ -31,11 +31,11 @@ The overall solution architecture is made of a VPC that is connected to the inte
 
 <h2>Steps to execute the project</h2>
 
-- <b>Launch the cloud formation template attached</b> 
-- <b>Create a bastion host</b>
-- <b>Create a launch template and configure scaling groups</b> 
-- <b>Create application load balancers</b>
-- <b>Update scaling groups</b>
+- <b>Launch the cloud formation template attached in the project</b> 
+- <b>Create a bastion host to SSH to your instances in the private subnets</b>
+- <b>Create a launch template and configure  auto scaling groups</b> 
+- <b>Create target groups and attach them to application load balancers </b>
+- <b>Update the auto scaling groups to match your specifications</b>
 
 
 
