@@ -20,7 +20,7 @@ This project aims to create an AWS infrastructure using CloudFormation templates
 - <b>Internet gateway for internet access</b>
 - <b>NAT Gateway for outbound internet access for instances in Private Subnets </b> 
 - <b>EC2 instances for the two applications and bastion host</b>
-- <b>RDS instance (database)</b> 
+- <b>RDS instance (cloud hosted database)</b> 
 - <b>2 load balancers to handle the traffic</b>
 - <b>Auto scaling groups</b> 
 - <b>Security groups (firewalls)</b>
