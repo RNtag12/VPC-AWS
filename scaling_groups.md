@@ -16,7 +16,9 @@
     - Configure other settings as needed (e.g., network interfaces, storage).
 - Click Create launch template
 <br />
+
 ## Set Up an Auto Scaling Group
+
 - Navigate to the Auto Scaling Groups Section In the AWS Management Console, go to the EC2 Dashboard.
 Under Auto Scaling, click Auto Scaling Groups.
 - Create Auto Scaling group.
