@@ -20,17 +20,20 @@
 ## Setting Up an Auto Scaling Group
 
 - Navigate to the Auto Scaling Groups Section In the AWS Management Console, go to the EC2 Dashboard.
-Under Auto Scaling, click Auto Scaling Groups.
+Under Auto Scaling, click Auto Scaling Groups. Note that you will be using the launch template that you created in the first step
 - Create Auto Scaling group.
   - Provide a name for the Auto Scaling group.
   - Select the launch template created in the previous step. Click Next.
 - Configure the Group Size and Scaling Policies
-  - Specify the Group size (desired, minimum, and maximum number of instances).
-  - Configure the Network and Subnets. Click Next.
+  - Specify the Group size (desired capacity, minimum capacity, and maximum capacity of instances).
+  - Configure the Network and Subnets (uses Private Subnet1 and Private Subnet2 for this project). Click Next.
+  - Skip all the advanced options
 - Configure Scaling Policies
   - Choose scaling policies based on your needs:
-  - Target Tracking Scaling: Adjusts the number of instances based on a target value for a specific metric (e.g., CPU utilization).
-  - Step Scaling: Adjusts the number of instances in steps based on metric thresholds.Scheduled Scaling: Adjusts the number of instances based on a schedule.
+  - In the project, Target Tracking Scaling is configured with the following policies:
+      - Metric type: Average CPU utilization
+      - Target Value: 50
+      - Instances need: 60
   - Configure the chosen scaling policy. Click Next.
 - Review and Create the Auto Scaling Group
   - Review the configuration details.
