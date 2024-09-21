@@ -1,4 +1,3 @@
-
 The overall solution architecture is made of a VPC that is connected to the internet. The VPC serves as the foundation of the network from which AWS resources can be lunched. 
 For the internet to reach the resources inside of the VPC, an Internet Gateway must be created. An IGW acts as a channel for communication between resources in the VPC and the internet. 
 Note that the IGW is connected to the VPC via the VPCtoIGWConnection (VPCGatewayAttachment). 
